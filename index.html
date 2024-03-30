@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head><body>
+    <center>
+        <div class="heading">
+            <span class="digital">D I G I T A L </span>
+            <span class="cricket"> C R I C K E T</span>
+        </div> 
+    </center>
+    <div class="player">
+        <center>
+            <h1 id="score"> YOUR SCORE: </h1>
+            <img src="user.png" alt="player image " height="200" width="200"><br><br>
+            <button onclick="Score(1)" id="btn1">1</button>
+            <button onclick="Score(2)" id="btn2">2</button>
+            <button onclick="Score(3)" id="btn3">3</button> <br> <br>
+            <button onclick="Score(4)" id="btn4">4</button>
+            <button onclick="Score(5)" id="btn5">5</button>
+            <button onclick="Score(6)" id="btn6">6</button>
+        </center>
+    </div>
+    <div class="cntSpc">
+        <center>
+            <h1 id="userChoice">Player : </h1>
+            <h1 id="sysChoice"> System : </h1>
+            <h1 id="status1"></h1>
+            <h1 id="status2"></h1>
+            <h1 id="status3"></h1>
+        </center>
+    </div>
+    <div class="computer">
+        <center>
+            <h1 id="sysScore">SYSTEM SCORE: </h1>
+            <img src="comp.png" alt="computer" height="200" width="200">
+        </center>
+    </div>
+    <script src="script.js"></script>
+</body></html>

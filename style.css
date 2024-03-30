@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+body{
+    color: black;
+    margin: 0%;
+    overflow: hidden;
+    background-image: url(back2.jpg);
+    background-size: 1530px 800px;
+    background-attachment: fixed;
+
+}
+.heading{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 690% ;
+    font-style: normal;
+    margin-bottom: 0;
+    margin-top: 0;
+}.digital {
+    color: white;
+}
+
+.cricket {
+    color: yellow;
+}
+
+
+#score{
+    font-family: "Anton", sans-serif;
+    font-weight: 300;
+    font-size: 300%;
+    color: white;
+    margin-bottom: 0;
+
+}
+.player{
+    height: 30cm ;
+    width: 35%;
+    border: 1px;
+    float: left;
+}
+img{
+    padding-top: 50px;
+    border-radius: 400px;
+    border-color: yellow;
+    margin-top:-50px;
+ 
+}
+button{
+    font-size: 25px;
+    border-color: black;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+    margin-left: 25px;
+    font-family:"Titillium Web", sans-serif;;
+}
+.cntSpc{
+    margin-top: 150px;
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+    height: 30cm ;
+    width: 30%;
+    border-color: black;
+    float: left;
+    border-width: 40px;
+}
+#userChoice{
+    margin-bottom: 0px;
+}
+#compChoice{
+    margin-top: 0px;
+}
+.computer{
+    height: 30cm ;
+    width: 35%;
+    float: left;
+    font-family: "Anton", sans-serif;
+    font-weight: 120%;
+    font-size: 150%;
+    color: white;
+}
+#compScore{
+    margin-bottom: -20px;
+}
